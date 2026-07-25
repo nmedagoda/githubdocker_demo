@@ -7,3 +7,5 @@ def test_home():
 
     assert response.status_code == 200
     assert b"GitHub Actions" in response.data
+
+
